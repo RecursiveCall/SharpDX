@@ -111,22 +111,6 @@ namespace SharpDX.Toolkit
             }
         }
 
-        public override System.Drawing.Point Location
-        {
-            get
-            {
-                return Control.Location;
-            }
-            set
-            {
-                var form = Control as RenderForm;
-                if (form != null)
-                {
-                    form.Location = value;
-                }
-            }
-        }
-
         /// <inheritdoc />
         public override Rectangle ClientBounds
         {

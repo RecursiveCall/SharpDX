@@ -69,11 +69,6 @@ namespace SharpDX.Toolkit
         public abstract bool AllowUserResizing { get; set; }
 
         /// <summary>
-        /// Gets or sets the window location
-        /// </summary>
-        public abstract System.Drawing.Point Location { get; set; }
-
-        /// <summary>
         /// Gets the client bounds.
         /// </summary>
         /// <value>The client bounds.</value>
